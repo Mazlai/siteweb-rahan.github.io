@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap%27');
+
+html {
+    scroll-behavior:smooth;
+    width:100%;
+}
+
+body {
+    margin:0;
+    top:0;
+    width:100%;
+}
+
+h1 {
+	font-size:32px;
+	color:white;
+    text-align:center;
+}
+
+header {
+    position:fixed;
+    height:100px;
+    width:100%;
+    top:0;
+    z-index:5;
+    background-color:darkslategray;
+}
+
+#h-content {
+    line-height:30px;
+    font-family:'Joan';
+}
